@@ -1,8 +1,8 @@
-# GetDeltas Exception Demonstrator
+# Corrupted Container Demonstrator
 
 ## Configure Fluid Service
 
-Configure the Fluid service w/ environment variables `FLUID_MODE=frs|router|tiny`
+Configure the Fluid service w/ environment variables `FLUID_MODE=frs`
 
 If `frs` is opted for, set-up both `SECRET_FLUID_TENANT` and  `SECRET_FLUID_TOKEN` env. vars. (as configured in your azure service  - `Tenant Id` respectively `Primary key` )
 
@@ -15,6 +15,8 @@ SECRET_FLUID_TENANT=xyz
 ```
 
 ## Build & Test 
+
+> Note the tests are already configured w/  `FLUID_MODE=frs` env var.
 
 ```sh
 npm run clean
