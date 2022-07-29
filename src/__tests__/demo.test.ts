@@ -20,8 +20,7 @@ describe("Local map test", function () {
     }
 
     const dispose = () => {
-        console.log(`Disposing workspace ${workspace.containerId}"`);
-        workspace.dispose();
+
     }
 
     afterAll(() => {
