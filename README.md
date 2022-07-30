@@ -12,6 +12,7 @@ Example
 FLUID_MODE=frs
 SECRET_FLUID_TOKEN=xyz
 SECRET_FLUID_TENANT=xyz
+SECRET_FLUID_RELAY="https://us.fluidrelay.azure.com"
 ```
 
 ## Build & Test 
